@@ -1,0 +1,31 @@
+{
+  "name": "chaise",
+  "version": "0.0.1",
+  "description": "CouchDB ODM",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/desoares1975/chaise.git"
+  },
+  "keywords": [
+    "CouchDB",
+    "ODM",
+    "NoSQL",
+    "Schema",
+    "validation"
+  ],
+  "author": "desoares1975",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desoares1975/chaise/issues"
+  },
+  "homepage": "https://github.com/desoares1975/chaise#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3"
+  }
+}
