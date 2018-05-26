@@ -14,6 +14,7 @@ describe('Chaise testing', () => {
   it('test connection', done => {
     chaise.connect({})
       .then(() => {
+        expect(chaise.connection).to.be.a('function');
         done();
       })
       .catch(e => done(e));
